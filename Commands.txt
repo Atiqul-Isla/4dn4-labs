@@ -1,0 +1,6 @@
+echo "Atiqul Islam – islama15 - 400196226, Aaron Billones - billonea - 400182394, Gurkaran Sondhi - sondhg1 - 400193807"
+
+windump -i 1 -src compeng4dn4.mooo.com
+ncat --crlf compeng4dn4.mooo.com 50007
+or
+ncat compeng4dn4.mooo.com 50007

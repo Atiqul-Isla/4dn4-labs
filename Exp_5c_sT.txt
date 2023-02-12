@@ -1,0 +1,87 @@
+No.     Time           Source                Destination           Protocol Length Info
+   2377 26.340622      192.168.3.110         99.236.34.223         TCP      66     62084 → 50008 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 2377: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62084, Dst Port: 50008, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   2378 26.360596      99.236.34.223         192.168.3.110         TCP      66     50008 → 62084 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1452 SACK_PERM WS=128
+
+Frame 2378: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 62084, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   2379 26.360806      192.168.3.110         99.236.34.223         TCP      54     62084 → 50008 [ACK] Seq=1 Ack=1 Win=66560 Len=0
+
+Frame 2379: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62084, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   6534 56.399269      192.168.3.110         99.236.34.223         TCP      66     62113 → 50008 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 6534: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62113, Dst Port: 50008, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   6535 56.417171      99.236.34.223         192.168.3.110         TCP      66     50008 → 62113 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1452 SACK_PERM WS=128
+
+Frame 6535: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 62113, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   6536 56.417383      192.168.3.110         99.236.34.223         TCP      54     62113 → 50008 [ACK] Seq=1 Ack=1 Win=66560 Len=0
+
+Frame 6536: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62113, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   6537 56.417441      192.168.3.110         99.236.34.223         TCP      54     62113 → 50008 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 6537: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62113, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   6835 57.873877      99.236.34.223         192.168.3.110         TCP      66     [TCP Retransmission] 50008 → 62084 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1452 SACK_PERM WS=128
+
+Frame 6835: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 62084, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   6836 57.873959      192.168.3.110         99.236.34.223         TCP      66     [TCP Dup ACK 2379#1] 62084 → 50008 [ACK] Seq=1 Ack=1 Win=66560 Len=0 SLE=0 SRE=1
+
+Frame 6836: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62084, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9314 77.919112      99.236.34.223         192.168.3.110         TCP      54     50008 → 62084 [FIN, ACK] Seq=1 Ack=1 Win=64256 Len=0
+
+Frame 9314: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 62084, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9315 77.919352      192.168.3.110         99.236.34.223         TCP      54     62084 → 50008 [ACK] Seq=1 Ack=2 Win=66560 Len=0
+
+Frame 9315: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 62084, Dst Port: 50008, Seq: 1, Ack: 2, Len: 0

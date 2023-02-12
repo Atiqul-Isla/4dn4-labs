@@ -1,0 +1,491 @@
+No.     Time           Source                Destination           Protocol Length Info
+    489 1.603340       99.236.34.223         192.168.3.110         TCP      66     50008 → 4130 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1452 SACK_PERM WS=128
+
+Frame 489: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    490 1.603385       192.168.3.110         99.236.34.223         TCP      66     4130 → 50008 [ACK] Seq=1 Ack=1 Win=260 Len=0 SLE=0 SRE=1
+
+Frame 490: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    497 1.995001       192.168.3.110         99.236.34.223         HTTP     562    GET /photos/205.jpeg HTTP/1.1 
+
+Frame 497: 562 bytes on wire (4496 bits), 562 bytes captured (4496 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 1, Ack: 1, Len: 508
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    502 2.013541       99.236.34.223         192.168.3.110         TCP      54     50008 → 4130 [ACK] Seq=1 Ack=509 Win=64128 Len=0
+
+Frame 502: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 1, Ack: 509, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    505 2.026893       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=1 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 505: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 1, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    506 2.041698       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=1453 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 506: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 1453, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    507 2.041771       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=2905 Win=260 Len=0
+
+Frame 507: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 2905, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    508 2.041914       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=2905 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 508: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 2905, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    509 2.044517       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=4357 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 509: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 4357, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    510 2.044518       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=5809 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 510: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 5809, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    511 2.044544       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=5809 Win=260 Len=0
+
+Frame 511: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 5809, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    512 2.046906       99.236.34.223         192.168.3.110         TCP      1506   [TCP Previous segment not captured] 50008 → 4130 [ACK] Seq=8713 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 512: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 8713, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    513 2.046908       99.236.34.223         192.168.3.110         TCP      1506   [TCP Out-Of-Order] 50008 → 4130 [ACK] Seq=7261 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 513: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 7261, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    514 2.046937       192.168.3.110         99.236.34.223         TCP      66     4130 → 50008 [ACK] Seq=509 Ack=7261 Win=260 Len=0 SLE=8713 SRE=10165
+
+Frame 514: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 7261, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    515 2.046967       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=10165 Win=260 Len=0
+
+Frame 515: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 10165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    516 2.050330       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=10165 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 516: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 10165, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    517 2.050332       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=11617 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 517: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 11617, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    518 2.050333       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=13069 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 518: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 13069, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    519 2.050365       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=11617 Win=260 Len=0
+
+Frame 519: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 11617, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    520 2.050394       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=14521 Win=260 Len=0
+
+Frame 520: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 14521, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    528 2.071864       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=14521 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 528: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 14521, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    533 2.091809       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=15973 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 533: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 15973, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    534 2.091811       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=17425 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 534: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 17425, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    535 2.091893       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=17425 Win=260 Len=0
+
+Frame 535: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 17425, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    538 2.103603       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=18877 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 538: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 18877, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    539 2.103686       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=20329 Win=260 Len=0
+
+Frame 539: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 20329, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    540 2.108424       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=20329 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 540: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 20329, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    541 2.108425       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=21781 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 541: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 21781, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    542 2.108426       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=23233 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 542: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 23233, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    543 2.108499       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=23233 Win=260 Len=0
+
+Frame 543: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 23233, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    544 2.110462       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=24685 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 544: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 24685, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    545 2.110464       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=26137 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 545: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 26137, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    546 2.110514       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=26137 Win=260 Len=0
+
+Frame 546: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 26137, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    547 2.112649       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=27589 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 547: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 27589, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    548 2.112651       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=29041 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 548: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 29041, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    549 2.112700       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=29041 Win=260 Len=0
+
+Frame 549: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 29041, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    550 2.117242       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=30493 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 550: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 30493, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    551 2.117367       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=31945 Win=260 Len=0
+
+Frame 551: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 31945, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    552 2.129746       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=31945 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 552: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 31945, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    553 2.129748       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=33397 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 553: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 33397, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    554 2.129748       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=34849 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 554: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 34849, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    555 2.129749       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=36301 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 555: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 36301, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    556 2.129749       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=37753 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 556: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 37753, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    557 2.129749       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=39205 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 557: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 39205, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    558 2.129845       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=34849 Win=260 Len=0
+
+Frame 558: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 34849, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    559 2.129891       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=37753 Win=260 Len=0
+
+Frame 559: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 37753, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    560 2.129908       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=40657 Win=260 Len=0
+
+Frame 560: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 40657, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    561 2.134458       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=40657 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 561: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 40657, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    562 2.134461       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=42109 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 562: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 42109, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    563 2.134461       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=43561 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 563: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 43561, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    564 2.134462       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=45013 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 564: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 45013, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    565 2.134462       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=46465 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 565: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 46465, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    566 2.134578       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=43561 Win=260 Len=0
+
+Frame 566: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 43561, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    567 2.134648       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=46465 Win=260 Len=0
+
+Frame 567: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 46465, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    568 2.145135       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=47917 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 568: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 47917, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    569 2.145273       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=49369 Win=260 Len=0
+
+Frame 569: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 49369, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    570 2.158385       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [ACK] Seq=49369 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 570: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 49369, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    571 2.158387       99.236.34.223         192.168.3.110         TCP      1506   50008 → 4130 [PSH, ACK] Seq=50821 Ack=509 Win=64128 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 571: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 50821, Ack: 509, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+    572 2.158387       99.236.34.223         192.168.3.110         HTTP     1428   HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 572: 1428 bytes on wire (11424 bits), 1428 bytes captured (11424 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.3.110
+Transmission Control Protocol, Src Port: 50008, Dst Port: 4130, Seq: 52273, Ack: 509, Len: 1374
+[37 Reassembled TCP Segments (53646 bytes): #505(1452), #506(1452), #508(1452), #509(1452), #510(1452), #513(1452), #512(1452), #516(1452), #517(1452), #518(1452), #528(1452), #533(1452), #534(1452), #538(1452), #540(1452), #541(1452), #542]
+Hypertext Transfer Protocol
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+    575 2.158509       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=52273 Win=260 Len=0
+
+Frame 575: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 52273, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    579 2.200371       192.168.3.110         99.236.34.223         TCP      54     4130 → 50008 [ACK] Seq=509 Ack=53647 Win=255 Len=0
+
+Frame 579: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: AmpedWir_ab:13:40 (f8:7b:8c:ab:13:40)
+Internet Protocol Version 4, Src: 192.168.3.110, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 4130, Dst Port: 50008, Seq: 509, Ack: 53647, Len: 0

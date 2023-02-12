@@ -1,0 +1,31 @@
+No.     Time           Source                Destination           Protocol Length Info
+   1300 18.404742      192.168.68.129        99.236.34.223         TCP      66     36086 → 50007 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 1300: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: Tp-LinkT_95:a3:4c (3c:84:6a:95:a3:4c)
+Internet Protocol Version 4, Src: 192.168.68.129, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 36086, Dst Port: 50007, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1302 18.435643      99.236.34.223         192.168.68.129        TCP      66     50007 → 36086 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460 SACK_PERM WS=128
+
+Frame 1302: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: Tp-LinkT_95:a3:4c (3c:84:6a:95:a3:4c), Dst: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c)
+Internet Protocol Version 4, Src: 99.236.34.223, Dst: 192.168.68.129
+Transmission Control Protocol, Src Port: 50007, Dst Port: 36086, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1303 18.435713      192.168.68.129        99.236.34.223         TCP      54     36086 → 50007 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 1303: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: Tp-LinkT_95:a3:4c (3c:84:6a:95:a3:4c)
+Internet Protocol Version 4, Src: 192.168.68.129, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 36086, Dst Port: 50007, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1304 18.435738      192.168.68.129        99.236.34.223         TCP      54     36086 → 50007 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 1304: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{4E8E02EB-6C28-4FD9-BBB8-242929410C55}, id 0
+Ethernet II, Src: IntelCor_b3:c1:1c (4c:77:cb:b3:c1:1c), Dst: Tp-LinkT_95:a3:4c (3c:84:6a:95:a3:4c)
+Internet Protocol Version 4, Src: 192.168.68.129, Dst: 99.236.34.223
+Transmission Control Protocol, Src Port: 36086, Dst Port: 50007, Seq: 1, Ack: 1, Len: 0
